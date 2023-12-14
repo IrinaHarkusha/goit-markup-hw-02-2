@@ -1,0 +1,129 @@
+:root {
+    --brand-color: #434455;
+    --secondary-color-text: #2E2F42;;
+    --accent-color: #4D5AE5;
+    --secondary-color-logo: #F4F4FD;
+    --color-hover: #404BBF;
+    --white-color: #fff;
+    --color-hover-footer: #31D0AA;
+}
+
+ /* ---------------------Загальні:--------------------- */
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--brand-color);
+    background-color: var(--white-color);
+    letter-spacing: 0.02em;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+li {
+    list-style-type: none;
+ }
+ h2, h3 {
+    color: var(--secondary-color-text);
+ }
+ p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+ }
+
+
+ /* ---------------------Ефект поточної сторінки---------------------  */
+
+ .nav-list .link.current {
+     color: var(--color-hover);
+ }
+
+ /* ---------------------Оформлення хедер--------------------- */
+
+.logo a {
+    color: var(--secondary-color-text);
+}
+.logo a:hover, .logo a:focus {
+    color: var(--color-hover);
+}
+
+.logotype {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+span {
+    color: var(--accent-color);
+}
+
+
+
+.address-list {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.address-list a {
+    color: var(--brand-color);
+}
+
+
+/* ------------------Баннер------------------ */
+
+.banner h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+}
+
+.button {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    border: var(--accent-color);
+    border-radius: 4px;
+}
+
+.button:hover, .button:focus {
+    background-color: var(--color-hover);
+    border: var(--color-hover);
+
+}
+
+
+/* -----------------Секція принципи----------------- */
+
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.list h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+/* -----------------------Секція Out Team--------------- */
+
+
+
+
+/* --------------------------Our Portfolio--------------- */
+
+
+
+
+/*------------Footer----------- */
+
