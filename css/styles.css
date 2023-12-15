@@ -25,69 +25,82 @@ li {
  h2, h3 {
     color: var(--secondary-color-text);
  }
- p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
- }
+ 
 
 
  /* ---------------------Ефект поточної сторінки---------------------  */
 
- .nav-list .link.current {
+ /* .nav-list .link.current {
      color: var(--color-hover);
- }
+ } */
 
  /* ---------------------Оформлення хедер--------------------- */
 
-.logo a {
-    color: var(--secondary-color-text);
-}
 .logo a:hover, .logo a:focus {
     color: var(--color-hover);
 }
-
 .logotype {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-span {
     color: var(--accent-color);
 }
 
+.wrap {
+    color: var(--secondary-color-text);
+}
+.wrap:hover, .wrap:focus {
+    color: var(--color-hover);
+}
 
+.link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 
-.address-list {
+    color: var(--secondary-color-text);
+}
+
+.list {
     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     font-style: normal;
 }
 
-.address-list a {
+.list a {
     color: var(--brand-color);
 }
 
 
 /* ------------------Баннер------------------ */
 
+.banner {
+    background-color: var(--secondary-color-text);
+}
 .banner h1{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+
+    color: var(--white-color);
 }
 
 .button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+
     background-color: var(--accent-color);
     color: var(--white-color);
     border: var(--accent-color);
-    border-radius: 4px;
+
+    cursor: pointer;
+    
 }
 
 .button:hover, .button:focus {
@@ -102,6 +115,8 @@ span {
 .title {
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .invisible {
@@ -114,10 +129,21 @@ span {
     line-height: 1.2;
 }
 
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 
 /* -----------------------Секція Out Team--------------- */
+.wrap-list {
+    background-color: var(--secondary-color-logo);
+}
 
-
+.card-wrap {
+    background-color: var(--white-color);
+}
 
 
 /* --------------------------Our Portfolio--------------- */
@@ -127,3 +153,23 @@ span {
 
 /*------------Footer----------- */
 
+.logo-title {
+    background-color: var(--secondary-color-text);
+    
+}
+.wrapper {
+    color: var(--accent-color);
+}
+.wrapper:hover, .wrapper:focus {
+    color: var(--color-hover);
+}
+
+.wrap-span {
+    color: var(--secondary-color-logo);
+}
+.wrap-span:hover, .wrap-span:focus {
+    color: var(--color-hover);
+}
+.wrapper-text {
+    color: var(--secondary-color-logo);
+}
