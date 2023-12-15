@@ -68,6 +68,7 @@ li {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+
     font-style: normal;
 }
 
@@ -81,11 +82,12 @@ li {
 .banner {
     background-color: var(--secondary-color-text);
 }
-.banner h1{
+.banner-up{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 
     color: var(--white-color);
 }
@@ -117,11 +119,12 @@ li {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em
 }
 
-.invisible {
+/* .invisible {
     visibility: hidden;
-}
+} */
 
 .list h3 {
     font-weight: 500;
@@ -143,6 +146,9 @@ li {
 
 .card-wrap {
     background-color: var(--white-color);
+}
+.wrap-text {
+    letter-spacing: 0.02em;
 }
 
 
@@ -171,5 +177,7 @@ li {
     color: var(--color-hover);
 }
 .wrapper-text {
+    line-height: 1.5;
+
     color: var(--secondary-color-logo);
 }
