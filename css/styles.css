@@ -13,8 +13,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--brand-color);
     background-color: var(--white-color);
-    letter-spacing: 0.02em;
 }
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -60,6 +60,7 @@ li {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 
     color: var(--secondary-color-text);
 }
@@ -72,7 +73,9 @@ li {
     font-style: normal;
 }
 
-.list a {
+.list-link {
+    letter-spacing: 0.02em;
+
     color: var(--brand-color);
 }
 
@@ -134,9 +137,9 @@ li {
 }
 
 .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
@@ -148,9 +151,7 @@ li {
 .card-wrap {
     background-color: var(--white-color);
 }
-.wrap-text {
-    letter-spacing: 0.02em;
-}
+
 
 
 /* --------------------------Our Portfolio--------------- */
@@ -164,9 +165,7 @@ li {
     background-color: var(--secondary-color-text);
     
 }
-.wrapper {
-    color: var(--accent-color);
-}
+
 .wrapper:hover, .wrapper:focus {
     color: var(--color-hover);
 }
@@ -179,6 +178,7 @@ li {
 }
 .wrapper-text {
     line-height: 1.5;
+    letter-spacing: 0.02em;
 
     color: var(--secondary-color-logo);
 }
